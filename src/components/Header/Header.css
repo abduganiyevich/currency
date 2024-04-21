@@ -1,0 +1,82 @@
+.header{
+    padding: 10px;
+    background-color: #0A146E;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-nav ul{
+    list-style: none;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+
+.header-register{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+    
+}
+
+.header-register .Sign-in{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+.header-register .sign-up{
+    width: 99px;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: #006CE0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.title h1{
+    color: White;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.title p{
+    width: 668px;
+    margin:0 auto;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
